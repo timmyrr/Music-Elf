@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacific&display=swap');
+:root {
+    font-family: Georgia, "Cedarville Cursive", serif;
+    font-family: monospace, Tahoma, sans-serif;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 75px;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+    color: black;
+}
+#hero-img {
+    max-height: 500px;
+    border-radius: 50px;
+    margin: 2% 25%;
+}
+main section {
+    text-align: center;
+}
+body {
+    font-family: Georgia, "Cedarville Cursive", serif;
+    font-size: 22px;
+    background-image: linear-gradient(to bottom right, #dddddd, #E7C24F);
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: monospace, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 50px;
+    opacity: 1;
+    background-color: #319Fa4;
+    align-items: center;
+}
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+footer {
+    background-color: #444444;
+    padding: 25px 50px;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-title {
+    font-family: "Cedarville Cursive", Tahoma, sans-serif;
+    text-decoration: underline;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
+.logo {
+    width: 85px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+h2 {
+    text-decoration: underline;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 50px;
+}
+.cool-guitar {
+    max-height: 500px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.grey-box {
+    max-height: 500px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0 auto;
+    width: 600px;
+    opacity: 1;
+    border-radius: 20px;
+}
+.purpose-paragraph {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    padding: 15%;
+    color: white;
+}
+h2 {
+    padding: 2%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    color: white;
+    font-family: "Cedarville Cursive";
+}
