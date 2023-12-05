@@ -219,3 +219,82 @@ h2 {
     border-radius: 20px;
     padding: 100px 20px 100px 0px;
 }
+.reviews-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 50px;
+    justify-content: center;
+    overflow: hidden;
+}
+.reviews-greybox1 {
+    background-color: grey;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 10%;
+    opacity: 1;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.reviews-greybox2 {
+    background-color: grey;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 10%;
+    opacity: 1;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.reviews-greybox3 {
+    background-color: grey;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 10%;
+    opacity: 1;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.harp-review-lady {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.guitar-review-man {
+    max-width: 300px;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.violin-review-lady {
+    max-width: 300px;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.harp-review {
+    color: white;
+    margin: 0 auto;
+    padding: 20%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+.guitar-review {
+    color: white;
+    margin: 0 auto;
+    padding: 20%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.violin-review {
+    color: white;
+    margin: 0 auto;
+    padding: 20%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
